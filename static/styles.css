@@ -1,0 +1,94 @@
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    box-shadow: 0 0 15px gray;
+    margin: 20px;
+    padding: 5px;
+    min-width: auto;
+    max-width: 325px;
+}
+
+body {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.photo1 {
+    background: url(https://cs7.pikabu.ru/post_img/big/2019/02/20/9/155067750822610153.jpg) center no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.photo2 {
+    background: url(https://storedigital.ru/wp-content/uploads/2020/02/1st.png) center no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.photo3 {
+    background: url(https://u.kanobu.ru/editor/images/79/a4d507cb-457f-4095-9c21-7a509654a027.jpg) center no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.photo4 {
+    background: url(https://u.kanobu.ru/editor/images/95/ba49d9d7-92c4-4d82-83f6-4b53fa80de7b.jpg) center no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.photo5 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZBlARNmfW_t6Skqd_EhTUROr3LGPLOjBcNw&usqp=CAU) center no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.foot{
+    border: solid;
+    box-shadow: 0 0 15px grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+@media screen and (min-width:1370px) {
+    .comments {
+        justify-content: center;
+        margin-right: 500px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .container.col-6 {
+        display: none;
+    }
+}
